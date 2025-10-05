@@ -56,9 +56,9 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <LanguageToggle />
             <div className="flex items-center gap-2 text-xs text-slate-600">
-              <div className="w-6 h-6 bg-slate-900 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-[10px]">NASA</span>
-              </div>
+              {/* <div className="w-6 h-6 bg-slate-900 rounded flex items-center justify-center">
+                { <span className="text-white font-bold text-[10px]">NASA</span> }
+              </div> */}
               <span className="hidden sm:inline">{t.poweredBy}</span>
             </div>
           </div>
